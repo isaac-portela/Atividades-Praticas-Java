@@ -1,0 +1,6 @@
+O resultado ao compilar foi:
+salario has private access in Funcionario :4
+cpf has private access in Funcionario :5
+
+Esse resultado ocorreu pois o modificador de acesso private não permitirá o acesso
+direto aos atributos, por tanto se faz necessorio  metodos set e get para obeter esse acesso, dai se se da erro.
