@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `familia`;
+CREATE TABLE IF NOT EXISTS `familia` (
+  `id` int(2) NOT NULL,
+  `primeiro_nome` varchar(25) NOT NULL,
+  `sobrenome` varchar(25) NOT NULL,
+  `idade` int(2) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
