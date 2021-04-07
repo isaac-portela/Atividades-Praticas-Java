@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Script 5</title>
+</head>
+<body>
+<form action="Script5.php" method="post" enctype='multipart/form-data'>
+    Nome: <input type="text" name="nome">
+    Sobrenome: <input type="text" name="sobrenome">
+    <br>
+    <br>
+    Sexo: <input type="radio" name="genero" value="Masculino">
+    <label>Masculino</label>
+    <input type="radio" name="genero" value="Feminino">
+    <label>Feminino</label>
+    <br>
+    <br>
+    <label>Tipo Sanguineo: </label>
+    <select name="tipo_sangue">
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+    </select>
+    <br>
+    <br>
+    <p><input type="checkbox" name="materias[]" value="Matematica">Matematica</p>
+    <p><input type="checkbox" name="materias[]" value="Quimica">Quimica</p>
+    <p><input type="checkbox" name="materias[]" value="Física">Física</p>
+    <p><input type="checkbox" name="materias[]" value="Biologia">Biologia</p>
+    <p><input type="checkbox" name="materias[]" value="Geografia">Geografia</p>
+    <p><input type="checkbox" name="materias[]" value="Educação Fisica">Educação Fisica</p>
+    <p><input type="checkbox" name="materias[]" value="Inglês">Inglês</p>
+    <p><input type="checkbox" name="materias[]" value="Redação">Redação</p>
+    <p><input type="checkbox" name="materias[]" value="Historia">Historia</p>
+    <p><input type="checkbox" name="materias[]" value="Português">Português</p>
+    <p><input type="checkbox" name="materias[]" value="Filosofia">Filosofia</p>
+    <p><input type="checkbox" name="materias[]" value="Programacao Web">Programacao Web</p>
+    <p><input type="checkbox" name="materias[]" value="Programacao Java">Programacao Java</p>
+    Imagem: <input name='userfile' type='file'><br><br>
+    <input type="submit" name="enviar" value="Enviar">
+
+
+</form>
+</body>
+</html>
