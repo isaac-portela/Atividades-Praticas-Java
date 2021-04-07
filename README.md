@@ -8,4 +8,4 @@ Este repositorio está divido em duas pastas:
 ## Java Server
   A segunda pasta possui meus scripts escritos para java web, java server, neste repositorio ainda não adicionei tudo o que queria colocar, pois ha alguns repositorios que dão bug no upload.
 ## PHP
-Por fim tambem pretendo adicionar alguns projetinhos que fiz em php durante o ano neste repositorio, so preciso encontra-los ):
+Por fim tambem pretendo adicionar alguns projetinhos que fiz em php durante o ano neste repositorio, so preciso encontra-los (:
